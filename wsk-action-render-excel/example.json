@@ -1,0 +1,16 @@
+{
+	"employees": [
+		{
+			"name": "Foo",
+			"birthDate": "1980-01-01",
+			"payment": 600.0,
+			"bonus": 100.0
+		},
+		{
+			"name": "Bar",
+			"birthDate": "1970-01-01",
+			"payment": 1200.0,
+			"bonus": 200.0
+		}
+	]
+}
