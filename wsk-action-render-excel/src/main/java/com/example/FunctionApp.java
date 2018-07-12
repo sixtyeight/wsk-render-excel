@@ -21,15 +21,15 @@ import lombok.Data;
 public class FunctionApp {
 	@Data
 	public static class Payload {
-		public List<Employee> employees = new ArrayList<>();
+		private List<Employee> employees = new ArrayList<>();
 	}
 
 	@Data
 	public static class Employee {
-		public String name;
-		public String birthDate;
-		public Double payment;
-		public Double bonus;
+		private String name;
+		private String birthDate;
+		private Double payment;
+		private Double bonus;
 	}
 
 	public static JsonObject main(JsonObject args) throws IOException {
