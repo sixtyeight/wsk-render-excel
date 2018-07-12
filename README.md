@@ -17,7 +17,11 @@ This will invoke the action and display only the result.
     {
         "report": "UEsDBBQACAgIAM2o7EwAAAAAAAAAAAAAAAALAAAAX3JlbHM...
 ```
-     
+Or, even more fancy, use jq and base64 to decode the report back to an XLS file:
+```
+    $ wsk -i action invoke excel -P example.json --result | jq '.report' -r | base64 -d - > result.xls
+```
+
 ## Invoke asynchronous ##
 This will invoke the action and display only the activation id.
 ```
