@@ -2,6 +2,11 @@
 
 n.b: Using this on MiniShift using the openwhisk-template will *NOT* work out of the box due to the memory limits. Template: https://raw.githubusercontent.com/projectodd/openwhisk-openshift/master/template.yml
 
+* [Running OpenWhisk on OpenShift](https://github.com/projectodd/openwhisk-openshift)
+* [Apache OpenWhisk](https://openwhisk.apache.org/)
+* [OpenShift Origin](https://github.com/openshift/origin)
+* [IBM Cloud Functions Shell](https://github.com/ibm-functions/shell)
+
 ## Deploy ##
 ``
 $ wsk -i -v action create excel -m 1024 --main com.example.FunctionApp target/wsk-action-render-excel.jar
