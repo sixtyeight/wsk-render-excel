@@ -1,6 +1,6 @@
 # OpenWhisk #
 
-n.b: Using this on MiniShift using the openwhisk-template will *NOT* work out of the box due to the memory limits. Template: https://raw.githubusercontent.com/projectodd/openwhisk-openshift/master/template.yml
+n.b: Using this on MiniShift using the openwhisk-template will *NOT* work out of the box due to the memory limits. Template: https://raw.githubusercontent.com/projectodd/openwhisk-openshift/master/template.yml [(persistent version)](https://raw.githubusercontent.com/projectodd/openwhisk-openshift/master/persistent-template.yml)
 
 * [Running OpenWhisk on OpenShift](https://github.com/projectodd/openwhisk-openshift)
 * [Apache OpenWhisk](https://openwhisk.apache.org/)
